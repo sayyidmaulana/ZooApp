@@ -9,10 +9,21 @@
 import UIKit
 
 class DetailController: UIViewController {
-
+    @IBOutlet weak var imageDetail: UIImageView!
+    @IBOutlet weak var titleDetail: UILabel!
+    @IBOutlet weak var subtitleDetail: UILabel!
+    
+    var imgDetail:UIImage?
+    var titlDetail:String?
+    var subtitlDetail:String?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        imageDetail.image = imgDetail
+        titleDetail.text = titlDetail
+        subtitleDetail.text = subtitlDetail
+        
+        self.navigationItem.title = titlDetail
         // Do any additional setup after loading the view.
     }
     

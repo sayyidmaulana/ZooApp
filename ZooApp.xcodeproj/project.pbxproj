@@ -14,6 +14,8 @@
 		0B7C106823B8361400CF3EF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7C106623B8361400CF3EF1 /* LaunchScreen.storyboard */; };
 		0B7C107323B8361400CF3EF1 /* ZooAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7C107223B8361400CF3EF1 /* ZooAppTests.swift */; };
 		0B7C107E23B8361400CF3EF1 /* ZooAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7C107D23B8361400CF3EF1 /* ZooAppUITests.swift */; };
+		0B7C108C23B83FC500CF3EF1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7C108B23B83FC500CF3EF1 /* TableViewCell.swift */; };
+		0B7C108E23B844F700CF3EF1 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7C108D23B844F700CF3EF1 /* DetailController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0B7C107923B8361400CF3EF1 /* ZooAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZooAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B7C107D23B8361400CF3EF1 /* ZooAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZooAppUITests.swift; sourceTree = "<group>"; };
 		0B7C107F23B8361400CF3EF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B7C108B23B83FC500CF3EF1 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		0B7C108D23B844F700CF3EF1 /* DetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				0B7C106423B8361400CF3EF1 /* Assets.xcassets */,
 				0B7C106623B8361400CF3EF1 /* LaunchScreen.storyboard */,
 				0B7C106923B8361400CF3EF1 /* Info.plist */,
+				0B7C108B23B83FC500CF3EF1 /* TableViewCell.swift */,
+				0B7C108D23B844F700CF3EF1 /* DetailController.swift */,
 			);
 			path = ZooApp;
 			sourceTree = "<group>";
@@ -256,6 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B7C108E23B844F700CF3EF1 /* DetailController.swift in Sources */,
+				0B7C108C23B83FC500CF3EF1 /* TableViewCell.swift in Sources */,
 				0B7C106023B8361100CF3EF1 /* ViewController.swift in Sources */,
 				0B7C105E23B8361100CF3EF1 /* AppDelegate.swift in Sources */,
 			);
